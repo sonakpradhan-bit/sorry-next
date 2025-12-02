@@ -138,7 +138,7 @@ export default function LetterPage({ setCurrentPage }) {
             transition={{ duration: 0.8, delay: 1.8 }}
             className="text-lg text-pink-200 leading-relaxed max-w-lg mx-auto"
           >
-            I know this message can't undo what I always do, but I need you to know that you mean everything to me. I've been doning the same mistake forever, and I realize how much I've hurt the most precious person in my life❤️. I promise to do better, to be better, for you.✨
+            I know this message can't undo what I have already done, but I need you to know that you mean everything to me. I've been doing the same mistake forever, and I realize how much I've hurt the most precious person in my life❤️. I promise to do better, to be better, for you.✨
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 10 }}
