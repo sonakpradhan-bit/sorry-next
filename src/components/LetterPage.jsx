@@ -21,7 +21,7 @@ export default function LetterPage({ setCurrentPage }) {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-2xl text-pink-300 mb-8 mt-10 md:mt-0"
         >
-          I've been staring at these all night…🌙
+          I've been staring at these all day…🌻
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
@@ -48,7 +48,7 @@ export default function LetterPage({ setCurrentPage }) {
                 <div className="relative overflow-hidden rounded-xl bg-gradient-to-br from-pink-50 to-purple-50">
                   {/* Save the photos with name like 1.jpg, 2.jpg ... and change the src to this - /images/${i}.jpg */}
                   <img
-                    src={`/images/1.jpg`}
+                    src={`/images/${i}.jpg */`}
                     alt={`Beautiful memory ${i}`}
                     className="w-full h-36 object-cover"
                   />
@@ -129,7 +129,7 @@ export default function LetterPage({ setCurrentPage }) {
             transition={{ duration: 0.8, delay: 1.5 }}
             className="text-xl text-purple-200 leading-relaxed"
           >
-            You're so beautiful, but I still hurt you… I'm so sorry.💔
+            You're so beautiful Pm😶‍🌫️, but I still hurt you… I'm so sorry.💔
           </motion.p>
 
           <motion.p
@@ -138,7 +138,7 @@ export default function LetterPage({ setCurrentPage }) {
             transition={{ duration: 0.8, delay: 1.8 }}
             className="text-lg text-pink-200 leading-relaxed max-w-lg mx-auto"
           >
-            I know words can't undo what I did, but I need you to know that you mean everything to me. I've been thinking about all our beautiful moments together, and I realize how much I've hurt the most precious person in my life. I promise to do better, to be better, for you.✨
+            I know this message can't undo what I always do, but I need you to know that you mean everything to me. I've been doning the same mistake forever, and I realize how much I've hurt the most precious person in my life❤️. I promise to do better, to be better, for you.✨
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 10 }}
@@ -165,6 +165,7 @@ export default function LetterPage({ setCurrentPage }) {
           transition={{ delay: 2.5, duration: 0.8 }}
         >
           I need you...
+          I love you 😘
         </motion.button>
       </motion.div>
     </div>
